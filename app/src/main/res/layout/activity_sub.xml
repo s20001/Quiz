@@ -7,4 +7,63 @@
         android:layout_height="match_parent"
         tools:context=".SubActivity">
 
+    <Button
+            android:text="@string/A4_button"
+            android:layout_width="360dp"
+            android:layout_height="85dp" android:id="@+id/A4"
+            app:layout_constraintTop_toBottomOf="@+id/Quiz"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.9"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49" tools:text="@string/A4_button"/>
+    <TextView
+            android:text="@string/No_title"
+            android:layout_width="157dp"
+            android:layout_height="50dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" android:id="@+id/No"
+            tools:text="@string/No_title" android:textSize="36sp"/>
+    <TextView
+            android:layout_width="157dp"
+            android:layout_height="50dp" android:id="@+id/Yes"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/Yes_title" android:textSize="36sp" android:text="@string/Yes_title"/>
+    <TextView
+            android:layout_width="357dp"
+            android:layout_height="94dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/Quiz" android:text="@string/quiz_title" tools:text="@string/quiz_title"
+            android:textSize="30sp" android:textAlignment="center" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.3"/>
+    <Button
+            android:text="@string/A1_button"
+            android:layout_width="360dp"
+            android:layout_height="85dp" android:id="@+id/A1"
+            app:layout_constraintTop_toBottomOf="@+id/Quiz"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.033"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529" tools:text="@string/A1_button"/>
+    <Button
+            android:text="@string/A3_button"
+            android:layout_width="360dp"
+            android:layout_height="85dp" android:id="@+id/A3"
+            app:layout_constraintTop_toBottomOf="@+id/Quiz"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.614"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529" tools:text="@string/A3_button"/>
+    <Button
+            android:text="@string/A2_button"
+            android:layout_width="360dp"
+            android:layout_height="85dp" android:id="@+id/A2"
+            app:layout_constraintTop_toBottomOf="@+id/Quiz"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.329"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529" tools:text="@string/A2_button"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="time"
+            android:ems="10"
+            android:id="@+id/timer" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/Quiz" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
